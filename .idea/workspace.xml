@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/input/day1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day1-test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day1/Main1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/general/InputReader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 1, Part 2">
+      <change afterPath="$PROJECT_DIR$/input/day2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day2-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/Main2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/general/ListOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/ListOps.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +41,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="day1.Main1" />
       <module name="AdventOfCode24" />
@@ -62,8 +61,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="day2.Main2" />
+      <module name="AdventOfCode24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
@@ -80,6 +93,14 @@
       <option name="presentableId" value="Default" />
       <updated>1733049672529</updated>
     </task>
+    <task id="LOCAL-00001" summary="Day 1, Part 2">
+      <created>1733052166908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733052166908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,5 +113,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Part 1, Day 1" />
+    <MESSAGE value="Day 1, Part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 1, Part 2" />
   </component>
 </project>
