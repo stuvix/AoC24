@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 3, Parts 1 and 2">
-      <change afterPath="$PROJECT_DIR$/input/day4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day4-test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day4/Grid.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day4/Main4.scala" afterDir="false" />
+    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 4, Parts 1 and 2">
+      <change afterPath="$PROJECT_DIR$/input/day5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day5-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5/Main5.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5/Rule.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main4">
+  <component name="RunManager" selected="Application.Main5">
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="day1.Main1" />
       <module name="AdventOfCode24" />
@@ -100,8 +100,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main5" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="day5.Main5" />
+      <module name="AdventOfCode24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2" />
@@ -142,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733205468018</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day 4, Parts 1 and 2">
+      <created>1733336018347</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733336018347</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +182,7 @@
     <MESSAGE value="Day 1, Part 2" />
     <MESSAGE value="Day 2, Parts 1 and 2" />
     <MESSAGE value="Day 3, Parts 1 and 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3, Parts 1 and 2" />
+    <MESSAGE value="Day 4, Parts 1 and 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 4, Parts 1 and 2" />
   </component>
 </project>
