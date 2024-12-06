@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 4, Parts 1 and 2">
-      <change afterPath="$PROJECT_DIR$/input/day5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day5-test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day5/Main5.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day5/Rule.scala" afterDir="false" />
+    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 5, Parts 1 and 2">
+      <change afterPath="$PROJECT_DIR$/input/day6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day6-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day6/Direction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day6/Main6.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day6/Tile.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.scala" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="5shaquaq" />
@@ -47,20 +51,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main5">
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="day1.Main1" />
-      <module name="AdventOfCode24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main6">
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="day2.Main2" />
       <module name="AdventOfCode24" />
@@ -113,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main6" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="day6.Main6" />
+      <module name="AdventOfCode24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main6" />
         <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733336018347</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 5, Parts 1 and 2">
+      <created>1733377621313</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733377621313</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +194,7 @@
     <MESSAGE value="Day 2, Parts 1 and 2" />
     <MESSAGE value="Day 3, Parts 1 and 2" />
     <MESSAGE value="Day 4, Parts 1 and 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 4, Parts 1 and 2" />
+    <MESSAGE value="Day 5, Parts 1 and 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5, Parts 1 and 2" />
   </component>
 </project>
