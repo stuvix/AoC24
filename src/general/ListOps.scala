@@ -35,4 +35,9 @@ object ListOps {
 		}
 		clones
 	}
+	
+	def generateAllPairs[A](list:List[A]):List[(A,A)] = {
+		for (x <- list; y <- list) 
+			yield (x,y)
+	}
 }
