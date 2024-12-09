@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 7, Parts 1 and 2">
-      <change afterPath="$PROJECT_DIR$/input/day8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day8-test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day8/AntennaMap.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day8/Main8.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/general/Coordinates.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/general/Maths.scala" afterDir="false" />
+    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 8, Parts 1 and 2">
+      <change afterPath="$PROJECT_DIR$/input/day9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day9-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/BlockMemory.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/Main9.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/Memory.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/general/RangeList.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/general/ListOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/ListOps.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,7 @@
   "keyToString": {
     "Application.Main7.executor": "Run",
     "Application.Main8.executor": "Run",
+    "Application.Main9.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -65,20 +65,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main8">
-    <configuration name="Main4" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="day4.Main4" />
-      <module name="AdventOfCode24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main9">
     <configuration name="Main5" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="day5.Main5" />
       <module name="AdventOfCode24" />
@@ -131,13 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main9" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="day9.Main9" />
+      <module name="AdventOfCode24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main9" />
         <item itemvalue="Application.Main8" />
         <item itemvalue="Application.Main7" />
         <item itemvalue="Application.Main6" />
         <item itemvalue="Application.Main5" />
-        <item itemvalue="Application.Main4" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733550417788</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Day 8, Parts 1 and 2">
+      <option name="closed" value="true" />
+      <created>1733675397878</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733675397878</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,7 +234,8 @@
     <MESSAGE value="Day 5, Parts 1 and 2" />
     <MESSAGE value="Day 6, Parts 1 and 2" />
     <MESSAGE value="Day 7, Parts 1 and 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 7, Parts 1 and 2" />
+    <MESSAGE value="Day 8, Parts 1 and 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 8, Parts 1 and 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -235,6 +244,15 @@
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
           <option name="timeStamp" value="5" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="43" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/day8/AntennaMap.scala</url>
+          <line>40</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
