@@ -47,6 +47,15 @@ case class Coordinates(row:Int, col:Int) {
 			delta / common
 		}
 	}
+	
+	def getManhattanNeighbours:List[Coordinates] = {
+		this + Coordinates(1,0) :: this + Coordinates(0,1) :: this + Coordinates(-1,0) :: this + Coordinates(0,-1) :: Nil
+	}
+	
+	def isWithinBoard(rowCount:Int, colCount:Int):Boolean = {
+		row >= 0 && col >= 0 &&
+			row < rowCount && col < colCount
+	}
 
 	@targetName("add")
 	def +(other:Coordinates):Coordinates = {

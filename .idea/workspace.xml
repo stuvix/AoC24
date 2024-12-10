@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 8, Parts 1 and 2">
-      <change afterPath="$PROJECT_DIR$/input/day9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day9-test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day9/BlockMemory.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day9/Main9.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day9/Memory.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/general/RangeList.scala" afterDir="false" />
+    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 9, Parts 1 and 2">
+      <change afterPath="$PROJECT_DIR$/input/day10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day10-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/Main10.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/general/DirectedGraph.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/general/Coordinates.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/Coordinates.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main10.executor": "Run",
     "Application.Main7.executor": "Run",
     "Application.Main8.executor": "Run",
     "Application.Main9.executor": "Run",
@@ -65,13 +65,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main9">
-    <configuration name="Main5" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="day5.Main5" />
+  <component name="RunManager" selected="Application.Main10">
+    <configuration name="Main10" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="day10.Main10" />
       <module name="AdventOfCode24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day5.*" />
+          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main10" />
         <item itemvalue="Application.Main9" />
         <item itemvalue="Application.Main8" />
         <item itemvalue="Application.Main7" />
         <item itemvalue="Application.Main6" />
-        <item itemvalue="Application.Main5" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733675397878</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Day 9, Parts 1 and 2">
+      <option name="closed" value="true" />
+      <created>1733733906685</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733733906685</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +243,8 @@
     <MESSAGE value="Day 6, Parts 1 and 2" />
     <MESSAGE value="Day 7, Parts 1 and 2" />
     <MESSAGE value="Day 8, Parts 1 and 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 8, Parts 1 and 2" />
+    <MESSAGE value="Day 9, Parts 1 and 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 9, Parts 1 and 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
