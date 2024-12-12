@@ -52,6 +52,10 @@ case class Coordinates(row:Int, col:Int) {
 		this + Coordinates(1,0) :: this + Coordinates(0,1) :: this + Coordinates(-1,0) :: this + Coordinates(0,-1) :: Nil
 	}
 	
+	def getDiagonalNeighbours:List[Coordinates] = {
+		this + Coordinates(1, 1) :: this + Coordinates(-1, 1) :: this + Coordinates(-1, -1) :: this + Coordinates(1, -1) :: Nil
+	}
+	
 	def isWithinBoard(rowCount:Int, colCount:Int):Boolean = {
 		row >= 0 && col >= 0 &&
 			row < rowCount && col < colCount
