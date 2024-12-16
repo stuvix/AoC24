@@ -23,4 +23,13 @@ case object Left extends Direction {
 object Direction {
 	def getAllDirections:List[Direction] =
 		Up :: Right :: Down :: Left :: Nil
+		
+		
+	def fromString(s: String): Direction = {
+		s match
+			case "v" => Down
+			case "<" => Left
+			case "^" => Up
+			case ">" => Right
+	}
 }

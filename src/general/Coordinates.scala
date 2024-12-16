@@ -60,6 +60,14 @@ case class Coordinates(row:Int, col:Int) {
 		row >= 0 && col >= 0 &&
 			row < rowCount && col < colCount
 	}
+	
+	def arrayAccess[T](array:Array[Array[T]]):T = {
+		array(row)(col)
+	}
+	
+	def arrayWrite[T](array:Array[Array[T]], x:T):Unit = {
+		array(row)(col) = x
+	}
 
 	@targetName("add")
 	def +(other:Coordinates):Coordinates = {
