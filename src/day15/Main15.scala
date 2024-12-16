@@ -4,7 +4,7 @@ import general.{Direction, InputReader}
 
 object Main15 {
 	def main(args: Array[String]): Unit = {
-		val testing = true
+		val testing = false
 		var input:List[String] = null
 
 		if (testing) {
@@ -41,6 +41,6 @@ object Main15 {
 		wareHouse.executeMoves(moves.toCharArray.map(_.toString).map(Direction.fromString))
 		println(wareHouse.getBoxCoordinates.map(c => c.row * 100 + c.col * 1).sum)
 
-		//println(wareHouse)
+		println(wareHouse)
 	}
 }

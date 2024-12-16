@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 14, Parts 1 and 2">
-      <change afterPath="$PROJECT_DIR$/input/day15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day15-test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day15/Main15.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day15/WareHouse.scala" afterDir="false" />
+    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 15, Part 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/general/Coordinates.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/Coordinates.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/general/Direction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/Direction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day15/Main15.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/day15/Main15.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day15/WareHouse.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/day15/WareHouse.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734185994497</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Day 15, Part 1">
+      <option name="closed" value="true" />
+      <created>1734310626362</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1734310626362</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +303,8 @@
     <MESSAGE value="Day 12, Parts 1 and 2" />
     <MESSAGE value="Day 13, Parts 1 and 2" />
     <MESSAGE value="Day 14, Parts 1 and 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 14, Parts 1 and 2" />
+    <MESSAGE value="Day 15, Part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 15, Part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -323,8 +328,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/day15/WareHouse.scala</url>
-          <line>10</line>
-          <option name="timeStamp" value="50" />
+          <line>18</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/day15/WareHouse.scala</url>
+          <line>23</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
