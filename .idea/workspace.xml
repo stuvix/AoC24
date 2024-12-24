@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 15, Part 1">
+      <change afterPath="$PROJECT_DIR$/input/day16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day16-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day16/Main16.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/general/Graph.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day15/Main15.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/day15/Main15.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day15/WareHouse.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/day15/WareHouse.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode24.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;stuvix&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/stuvix/AoC24.git&quot;,
+    &quot;accountId&quot;: &quot;bd36d43a-d3a6-4a5c-b7d1-3801c1503f51&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.scala" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.scala" root0="SKIP_HIGHLIGHTING" />
@@ -60,6 +76,7 @@
     "Application.Main13.executor": "Run",
     "Application.Main14.executor": "Run",
     "Application.Main15.executor": "Debug",
+    "Application.Main16.executor": "Run",
     "Application.Main7.executor": "Run",
     "Application.Main8.executor": "Run",
     "Application.Main9.executor": "Run",
@@ -68,29 +85,20 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.scala.root"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main15">
+  <component name="RunManager" selected="Application.Main16">
     <configuration name="Main11" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="day11.Main11" />
       <module name="AdventOfCode24" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main12" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="day12.Main12" />
-      <module name="AdventOfCode24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,13 +145,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main16" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="day16.Main16" />
+      <module name="AdventOfCode24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main16" />
+        <item itemvalue="Application.Main11" />
         <item itemvalue="Application.Main15" />
         <item itemvalue="Application.Main14" />
         <item itemvalue="Application.Main13" />
-        <item itemvalue="Application.Main12" />
-        <item itemvalue="Application.Main11" />
       </list>
     </recent_temporary>
   </component>
