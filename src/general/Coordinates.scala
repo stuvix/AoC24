@@ -68,6 +68,8 @@ case class Coordinates(row:Int, col:Int) {
 	def arrayWrite[T](array:Array[Array[T]], x:T):Unit = {
 		array(row)(col) = x
 	}
+	
+	def reverse:Coordinates = Coordinates(col,row)
 
 	@targetName("add")
 	def +(other:Coordinates):Coordinates = {
@@ -88,5 +90,14 @@ case class Coordinates(row:Int, col:Int) {
 	@targetName("scalarDivision")
 	def /(scalar: Int): Coordinates = {
 		Coordinates(row / scalar, col / scalar)
+	}
+}
+
+
+object Coordinates {
+	def fromString(string:String):Coordinates = {
+		val list = string.trim.split(",")
+		assert(list.length == 2)
+		Coordinates(list.head.toInt, list.tail.head.toInt)
 	}
 }

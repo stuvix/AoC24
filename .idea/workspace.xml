@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 15, Part 1">
-      <change afterPath="$PROJECT_DIR$/input/day16" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day16-test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day16/Main16.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/general/Graph.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 16, Part 1 &amp; 2">
+      <change afterPath="$PROJECT_DIR$/input/day18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day18-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18/Main18.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode24.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/general/Coordinates.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/Coordinates.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/general/Graph.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/Graph.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +76,7 @@
     "Application.Main14.executor": "Run",
     "Application.Main15.executor": "Debug",
     "Application.Main16.executor": "Run",
+    "Application.Main18.executor": "Run",
     "Application.Main7.executor": "Run",
     "Application.Main8.executor": "Run",
     "Application.Main9.executor": "Run",
@@ -92,26 +92,13 @@
     "settings.editor.selected.configurable": "configurable.scala.root"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main16">
+  <component name="RunManager" selected="Application.Main18">
     <configuration name="Main11" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="day11.Main11" />
       <module name="AdventOfCode24" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main13" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="day13.Main13" />
-      <module name="AdventOfCode24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,13 +145,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main18" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="day18.Main18" />
+      <module name="AdventOfCode24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main18" />
         <item itemvalue="Application.Main16" />
         <item itemvalue="Application.Main11" />
         <item itemvalue="Application.Main15" />
         <item itemvalue="Application.Main14" />
-        <item itemvalue="Application.Main13" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734310626362</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Day 16, Part 1 &amp; 2">
+      <option name="closed" value="true" />
+      <created>1735076977193</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1735076977193</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,7 +333,8 @@
     <MESSAGE value="Day 13, Parts 1 and 2" />
     <MESSAGE value="Day 14, Parts 1 and 2" />
     <MESSAGE value="Day 15, Part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 15, Part 1" />
+    <MESSAGE value="Day 16, Part 1 &amp; 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 16, Part 1 &amp; 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

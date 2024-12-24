@@ -18,6 +18,14 @@ class Graph[T] {
     vertices.getOrElse(name, throw new IllegalArgumentException())
   }
 
+  def containsVertex(name: T): Boolean = {
+    vertices.contains(name)
+  }
+
+  def addEdge(v1:T, v2:T, weight:Int):Unit = {
+    this.addEdge(this.getVertex(v1), this.getVertex(v2), weight)
+  }
+  
   def addEdge(v1:Vertex, v2:Vertex, weight: Int):Unit = {
     val e = new Edge(v1,v2,weight)
     edges ::= e
@@ -42,6 +50,33 @@ class Graph[T] {
         }
       }
     }
+  }
+  
+  def isReachable(start:T, dest:T):Boolean = isReachable(getVertex(start), getVertex(dest))
+  
+  def isReachable(start:Vertex, dest:Vertex):Boolean = {
+    val reached = new mutable.HashSet[Vertex]()
+    var todo = start::Nil
+    while (todo.nonEmpty) {
+      val current = todo.head
+      todo = todo.tail
+      
+      reached.add(current)
+      for ((n,_) <- current.getNeighbours) {
+        if (!reached.contains(n)) {
+          todo ::= n
+        }
+      }
+    }
+    reached.contains(dest)
+  }
+  
+  def removeVertex(name:T):Unit = {
+    val v = vertices.remove(name).get
+    for ((neighbour,_) <- v.getNeighbours) {
+      neighbour.removeEdge(v)
+    }    
+    edges = edges.filterNot(_.containsVertex(v))
   }
 
   def getShortestDistanceForVertex(vertex:Vertex):Int = {
@@ -99,9 +134,15 @@ class Graph[T] {
     }
 
     def getName:T = name
+    
+    def removeEdge(to:Vertex):Unit = {
+      edges = edges.filterNot(_.containsVertex(to))
+    }
   }
 
   class Edge(var v1:Vertex, var v2:Vertex, var weight:Int) {
     def getVertices:Seq[Vertex] = v1::v2::Nil
+    
+    def containsVertex(v:Vertex):Boolean = v1 == v || v2 == v 
   }
 }
