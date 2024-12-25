@@ -1,6 +1,8 @@
 package general
 
+import java.util
 import scala.annotation.targetName
+import scala.collection.mutable
 
 case class Coordinates(row:Int, col:Int) {
 	def manhattanDistanceTo(other:Coordinates):Int = {
@@ -52,6 +54,19 @@ case class Coordinates(row:Int, col:Int) {
 		this + Coordinates(1,0) :: this + Coordinates(0,1) :: this + Coordinates(-1,0) :: this + Coordinates(0,-1) :: Nil
 	}
 	
+	def getManhattanNeighbours(maxDistance:Int):List[Coordinates] = {
+		val ret = new mutable.HashSet[Coordinates]() 
+		for (distance <- 1 to maxDistance) {
+			for (i <- 0 to distance) {
+				ret .add( this + Coordinates(i, distance - i))
+				ret .add( this + Coordinates(-i, distance - i))
+				ret .add( this + Coordinates(i, -(distance - i)))
+				ret .add( this + Coordinates(-i, -(distance - i)))
+			}
+		}
+		ret.toList
+	}
+	
 	def getDiagonalNeighbours:List[Coordinates] = {
 		this + Coordinates(1, 1) :: this + Coordinates(-1, 1) :: this + Coordinates(-1, -1) :: this + Coordinates(1, -1) :: Nil
 	}
@@ -61,8 +76,16 @@ case class Coordinates(row:Int, col:Int) {
 			row < rowCount && col < colCount
 	}
 	
+	def arrayContainsCoordinates[T](array:Array[Array[T]]):Boolean = {
+		isWithinBoard(array.length, array.head.length)
+	}
+	
 	def arrayAccess[T](array:Array[Array[T]]):T = {
 		array(row)(col)
+	}
+
+	def arrayAccessOr[T](array: Array[Array[T]], or:T): T = {
+		if arrayContainsCoordinates(array) then array(row)(col) else or
 	}
 	
 	def arrayWrite[T](array:Array[Array[T]], x:T):Unit = {

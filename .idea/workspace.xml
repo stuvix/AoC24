@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 18, Part 1 &amp; 2">
-      <change afterPath="$PROJECT_DIR$/input/day19" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day19-test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day19/Main19.scala" afterDir="false" />
+    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 19, Part 1 &amp; 2">
+      <change afterPath="$PROJECT_DIR$/input/day20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day20-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day20/Main20.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/general/Coordinates.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/Coordinates.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +77,7 @@
     "Application.Main16.executor": "Run",
     "Application.Main18.executor": "Run",
     "Application.Main19.executor": "Run",
+    "Application.Main20.executor": "Run",
     "Application.Main7.executor": "Run",
     "Application.Main8.executor": "Run",
     "Application.Main9.executor": "Run",
@@ -91,26 +93,13 @@
     "settings.editor.selected.configurable": "configurable.scala.root"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main19">
+  <component name="RunManager" selected="Application.Main20">
     <configuration name="Main11" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="day11.Main11" />
       <module name="AdventOfCode24" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main15" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="day15.Main15" />
-      <module name="AdventOfCode24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,13 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main20" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="day20.Main20" />
+      <module name="AdventOfCode24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main20" />
         <item itemvalue="Application.Main19" />
         <item itemvalue="Application.Main18" />
         <item itemvalue="Application.Main16" />
         <item itemvalue="Application.Main11" />
-        <item itemvalue="Application.Main15" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735080410220</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Day 19, Part 1 &amp; 2">
+      <option name="closed" value="true" />
+      <created>1735082287954</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1735082287954</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +352,8 @@
     <MESSAGE value="Day 15, Part 1" />
     <MESSAGE value="Day 16, Part 1 &amp; 2" />
     <MESSAGE value="Day 18, Part 1 &amp; 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 18, Part 1 &amp; 2" />
+    <MESSAGE value="Day 19, Part 1 &amp; 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 19, Part 1 &amp; 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
