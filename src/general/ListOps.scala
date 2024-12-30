@@ -40,4 +40,12 @@ object ListOps {
 		for (x <- list; y <- list) 
 			yield (x,y)
 	}
+
+	def allPermutationsOfList[T](list:List[T]):List[List[T]] = {
+		list.permutations.toList
+	}
+	
+	def consecutiveTuples[T](list:List[T]):List[(T,T)] = {
+		list.dropRight(1).zip(list.tail)
+	}
 }

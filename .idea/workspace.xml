@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 19, Part 1 &amp; 2">
-      <change afterPath="$PROJECT_DIR$/input/day20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day20-test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day20/Main20.scala" afterDir="false" />
+    <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 20, Part 1 &amp; 2">
+      <change afterPath="$PROJECT_DIR$/input/day21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day21-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/day22-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day21/Keyboard.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day21/Main21.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day22/Main22.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day22/SecretNumber.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/general/Coordinates.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/Coordinates.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/general/Direction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/Direction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/general/ListOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/ListOps.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +84,8 @@
     "Application.Main18.executor": "Run",
     "Application.Main19.executor": "Run",
     "Application.Main20.executor": "Run",
+    "Application.Main21.executor": "Debug",
+    "Application.Main22.executor": "Run",
     "Application.Main7.executor": "Run",
     "Application.Main8.executor": "Run",
     "Application.Main9.executor": "Run",
@@ -93,33 +101,7 @@
     "settings.editor.selected.configurable": "configurable.scala.root"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main20">
-    <configuration name="Main11" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="day11.Main11" />
-      <module name="AdventOfCode24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main16" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="day16.Main16" />
-      <module name="AdventOfCode24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main22">
     <configuration name="Main18" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="day18.Main18" />
       <module name="AdventOfCode24" />
@@ -159,13 +141,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main21" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="day21.Main21" />
+      <module name="AdventOfCode24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main22" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="day22.Main22" />
+      <module name="AdventOfCode24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main22" />
+        <item itemvalue="Application.Main21" />
         <item itemvalue="Application.Main20" />
         <item itemvalue="Application.Main19" />
         <item itemvalue="Application.Main18" />
-        <item itemvalue="Application.Main16" />
-        <item itemvalue="Application.Main11" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735082287954</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Day 20, Part 1 &amp; 2">
+      <option name="closed" value="true" />
+      <created>1735087345110</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1735087345110</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -353,7 +369,8 @@
     <MESSAGE value="Day 16, Part 1 &amp; 2" />
     <MESSAGE value="Day 18, Part 1 &amp; 2" />
     <MESSAGE value="Day 19, Part 1 &amp; 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 19, Part 1 &amp; 2" />
+    <MESSAGE value="Day 20, Part 1 &amp; 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 20, Part 1 &amp; 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -369,6 +386,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="48" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="65" />
         </breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/day8/AntennaMap.scala</url>
