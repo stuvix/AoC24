@@ -1,6 +1,8 @@
 package general
 
 import scala.collection.mutable
+import scala.util.boundary
+import scala.util.boundary.break
 
 class Graph[T] {
   private val vertices = new mutable.HashMap[T, Vertex]()
@@ -116,6 +118,56 @@ class Graph[T] {
     set.toSet
   }
 
+  def getAll3Cliques:List[List[Vertex]] = {
+    val completedVertices = new mutable.HashSet[Vertex]()
+    var cliques:List[List[Vertex]] = Nil
+    for (vertex <- vertices.values) {
+      for ((n1, n2) <- ListOps.generateUniquePairs(vertex.getNeighbours.map(_._1).toList)
+           if !completedVertices.contains(n1) && !completedVertices.contains(n2)) {
+        if (n1.getNeighbours.map(_._1).contains(n2)) {
+          cliques ::= (vertex :: n1 :: n2 :: Nil)
+        }
+      }
+      completedVertices.add(vertex)
+    }
+    cliques
+  }
+
+  def getLargestClique:List[Vertex] = {
+    getAllMaximalCliques.maxBy(_.length)
+  }
+
+  private def getAllMaximalCliques:List[List[Vertex]] = {
+    recursiveSubGraphCliqueFinding(vertices.values.toList).map(_.toList)
+  }
+
+  private def recursiveSubGraphCliqueFinding(vertices:List[Vertex]):List[Set[Vertex]] = {
+    if (vertices.length == 1) {
+      (vertices.head :: Nil).toSet :: Nil
+    }
+    else {
+      val v = vertices.head
+      val others = vertices.tail
+      val rec = recursiveSubGraphCliqueFinding(others)
+
+      val newOnes:mutable.HashSet[Set[Vertex]] = new mutable.HashSet[Set[Vertex]]()
+
+      for (clique <- rec) {
+        val attempt = clique.filter(_.bordersAll(v::Nil))
+        if (attempt.nonEmpty) {
+          if !newOnes.contains((v :: attempt.toList).toSet) then newOnes.add((v :: attempt.toList).toSet)
+        }
+      }
+      if newOnes.isEmpty then newOnes.add((v :: Nil).toSet)
+
+      println(vertices.length)
+
+      rec ++ newOnes.toList
+    }
+  }
+
+  def getVertexCount:Int = vertices.values.size
+
   class Vertex(name:T) {
     var edges:List[Edge] = Nil
 
@@ -137,6 +189,18 @@ class Graph[T] {
     
     def removeEdge(to:Vertex):Unit = {
       edges = edges.filterNot(_.containsVertex(to))
+    }
+
+    def degree:Int = edges.length
+
+    def bordersAll(others:Iterable[Vertex]):Boolean = {
+      boundary {
+        val neighbours = getNeighbours.map(_._1).toSet
+        for (other <- others) {
+          if !neighbours.contains(other) then break(false)
+        }
+        true
+      }
     }
   }
 

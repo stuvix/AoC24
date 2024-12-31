@@ -41,11 +41,29 @@ object ListOps {
 			yield (x,y)
 	}
 
+	def generateUniquePairs[A](list:List[A]):List[(A,A)] = {
+		var pairs:List[(A,A)] = Nil
+		val array = list.toVector
+		for (i <- array.indices) {
+			for (j <- i+1 until array.length) {
+				pairs ::= (array(i), array(j))
+			}
+		}
+		pairs
+	}
+
 	def allPermutationsOfList[T](list:List[T]):List[List[T]] = {
 		list.permutations.toList
 	}
-	
+
 	def consecutiveTuples[T](list:List[T]):List[(T,T)] = {
 		list.dropRight(1).zip(list.tail)
+	}
+	
+	def allSubsets[T](list:List[T]):List[List[T]] = {
+		if (list.length <= 1) 
+			list :: Nil 
+		else
+			(list :: Nil) ++ removeEachElementOnce(list).flatMap(allSubsets) 
 	}
 }
