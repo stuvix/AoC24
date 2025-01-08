@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81616e67-7f18-4e5f-badc-4f70511b8e79" name="Changes" comment="Day 22, Part 1 &amp; 2">
-      <change afterPath="$PROJECT_DIR$/input/day21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day21-test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day23" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/day23-test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day21/Keyboard.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day21/Main21.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23/Main23.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/general/Direction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/Direction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/general/Graph.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/Graph.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/general/ListOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/ListOps.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode24.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +33,12 @@
     &quot;assignee&quot;: &quot;stuvix&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/stuvix/AoC24.git&quot;,
-    &quot;accountId&quot;: &quot;bd36d43a-d3a6-4a5c-b7d1-3801c1503f51&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/stuvix/AoC24.git",
+    "accountId": "e44f1244-53af-4aa4-90ef-b5f24ca7b281"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.scala" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.scala" root0="SKIP_HIGHLIGHTING" />
@@ -81,6 +73,7 @@
     "Application.Main14.executor": "Run",
     "Application.Main15.executor": "Debug",
     "Application.Main16.executor": "Run",
+    "Application.Main17.executor": "Run",
     "Application.Main18.executor": "Run",
     "Application.Main19.executor": "Run",
     "Application.Main20.executor": "Run",
@@ -96,19 +89,19 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.scala.root"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main23">
-    <configuration name="Main19" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="day19.Main19" />
+  <component name="RunManager" selected="Application.Main17">
+    <configuration name="Main17" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="day17.Main17" />
       <module name="AdventOfCode24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day19.*" />
+          <option name="PATTERN" value="day17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main17" />
         <item itemvalue="Application.Main23" />
         <item itemvalue="Application.Main22" />
         <item itemvalue="Application.Main21" />
         <item itemvalue="Application.Main20" />
-        <item itemvalue="Application.Main19" />
       </list>
     </recent_temporary>
   </component>
@@ -401,21 +394,6 @@
           <properties class="java.util.NoSuchElementException" package="java.util" />
           <option name="timeStamp" value="65" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/day8/AntennaMap.scala</url>
-          <line>40</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/day15/WareHouse.scala</url>
-          <line>18</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/day15/WareHouse.scala</url>
-          <line>23</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
